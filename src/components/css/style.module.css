@@ -8,7 +8,7 @@ footer .footer__links, header nav .header__navbar, header {
   margin: 0;
 }
 
-h1 {
+.h1 {
   color: goldenrod;
   border: solid 2px goldenrod;
   font-family: "Open Sans", sans-serif;
@@ -18,7 +18,7 @@ h1 {
   background-color: rgb(96, 104, 112);
 }
 
-h2 {
+.h2 {
   color: goldenrod;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -26,9 +26,21 @@ h2 {
   padding: 10px 0px;
 }
 
-header {
+.header {
   background-color: rgb(82, 88, 95);
 }
+
+.boton{
+  color: rgb(19, 18, 18);
+  border: solid 2px goldenrod;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  background-color: rgb(96, 104, 112);
+  padding: 20px 20px 20px 20px;
+}
+
+
 header nav .header__navbar {
   background-color: rgb(82, 88, 95);
 }
