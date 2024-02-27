@@ -1,16 +1,18 @@
-import classes from './Navbar.module.css'
+import classes from '../css/style.module.css'
+
 import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = () => {
     console.log(classes)
     return(
         <header className={classes.header}>
-            <h4 style={{color:'red', fontSize: 10}}>Ecommerce 54045</h4>
+            
             <nav>
+                <h2 className={classes.h2}>Ecommerce - Maderera</h2>
                 <div>
-                <a className='btn btn-primary'>Celulares</a>
-                <a>Tablets</a>
-                <a>Notebooks</a>
+                    <button className={classes.boton}>Cajones</button>
+                    <button className={classes.boton}>Pallets</button>
+                    <button className={classes.boton}>Jaulas</button>
                 </div>
                 
                 <CartWidget />
