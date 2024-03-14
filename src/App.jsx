@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
-
+import ItemCount from "./components/ItemCount/ItemCount"
 
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
     <>
     <Navbar />
     <ItemListContainer greeting={'Bienvenidos al sitio web de la Maderera'} />
+    <ItemCount stock={10}/>
+    
     </>
 
     

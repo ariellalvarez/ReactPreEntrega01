@@ -1,11 +1,12 @@
 import cart from './assets/cart2.png'
+import classes from '../css/style.module.css'
 
 const CartWidget = () => {
     return (
-        <div>
-            <img width= '30px' src={cart} alt="cart-widget"/>
+        <button className={classes.boton}>
+            <img width= '20px' src={cart} alt="cart-widget"/>
             0
-        </div>
+        </button>
     )
 }
 

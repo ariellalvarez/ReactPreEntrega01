@@ -6,17 +6,18 @@ const Navbar = () => {
     console.log(classes)
     return(
         <header className={classes.header}>
-            
+            <h1 className={classes.h1}>Ecommerce - Maderera</h1>
             <nav>
-                <h2 className={classes.h2}>Ecommerce - Maderera</h2>
-                <div>
-                    <button className={classes.boton}>Cajones</button>
-                    <button className={classes.boton}>Pallets</button>
-                    <button className={classes.boton}>Jaulas</button>
-                </div>
-                
+                <a className={classes.boton}>Cajones</a>
+                <a className={classes.boton}>Pallets</a>
+                <a className={classes.boton}>Jaulas</a>
                 <CartWidget />
+
+            
+                
+                
             </nav>
+            
         </header>
     )
 }
