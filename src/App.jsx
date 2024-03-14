@@ -8,14 +8,13 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar />
-    <Routes>
-      <Route path='/' element={<ItemListContainer greeting={'Bienvenidos al sitio web de la Maderera'} />} />
-      <Route path='/item/:itemID' element={<ItemDetailContainer />}/>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<ItemListContainer greeting={'Bienvenidos al sitio web de la Maderera'} />} />
+        <Route path='/item/:itemId' element={<ItemDetailContainer />}/>
+        
+      </Routes>
       
-    </Routes>
-    
-    
     </BrowserRouter>
     </>
 

@@ -1,7 +1,7 @@
 import ItemCount from "../ItemCount/ItemCount"
 
 
-const ItemDetail = ({name, category, price, img, description, stock}) => {
+const ItemDetail = ({id, name, category, price, img, description, stock}) => {
     return (
         <article>
                 <img src={img} style={{width: 100}}/>
