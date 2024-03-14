@@ -12,7 +12,7 @@ const ItemListContainer = ({ greeting}) => {
             .then(result =>{
                 setProducts(result)
             })
-})
+},[])
 
 
     return (
