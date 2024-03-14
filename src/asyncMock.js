@@ -1,15 +1,17 @@
+
+
 const products = [
     { 
         id: '1', 
-        name: 'iphone 12', 
-        price: 1000, 
-        category: 'celular', 
-        img:'https://itechstore.com.ar/wp-content/uploads/2020/06/iphone-12-pro-gold-hero-600x710.png', 
-        stock: 25, 
-        description:'Descripcion de Iphone 12'
+        name: 'Cajon', 
+        price: 10000, 
+        category: 'estructura', 
+        img: 'https://http2.mlstatic.com/D_NQ_NP_605115-MLA69398220348_052023-O.webp', 
+        stock: 100, 
+        description:'Cajon 100x100x100'
     },
-    { id: '2', name: 'samsung s21', price: 800, category: 'celular', img:'https://images.samsung.com/is/image/samsung/p6pim/ar/galaxy-s21/gallery/ar-galaxy-s21-5g-g991-sm-g991bzalaro-thumb-368338803', stock: 16, description:'Descripcion de Samsung s21'},
-    { id: '3', name: 'Ipad 8va generacion', price: 1200, category: 'tablet', img:'https://medias.musimundo.com/medias/00406046-143516-143516-01-143516-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1MjI1MnxpbWFnZS9qcGVnfGhjMC9oYWMvMTAyODM0OTc0NTU2NDYvMDA0MDYwNDYtMTQzNTE2LTE0MzUxNl8wMS0xNDM1MTZfMDEuanBnX3NpemU1MTV8MzA0NmMzNGFhZjUwMDY2YjY5MjU0MjlkMGJlYWMxODAxZjE5ODJhZmJlOTczZThmZjE2NTQxMjU5NjE2OTA4Yw', stock: 0, description:'Descripcion de Ipad'}
+    { id: '2', name: 'Pallet', price: 2000, category: 'base', img:'https://http2.mlstatic.com/D_NQ_NP_612663-MLA74652508899_022024-O.webp', stock: 100, description:'Plataforma 100x100x20'},
+    { id: '3', name: 'Jaula', price: 20000, category: 'estructura', img:'https://http2.mlstatic.com/D_NQ_NP_825723-MLA49534429219_032022-O.webp', stock: 100, description:'Jaula 150x150x150'}
 ]
 
 export const getProducts = () => {
