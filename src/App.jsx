@@ -13,12 +13,13 @@ function App() {
     
     <BrowserRouter>
       <CartProvider>
+      
       <Navbar />
       <Routes>
         <Route path='/' element={<ItemListContainer greeting={'Bienvenidos al sitio web de la Maderera'} />} />
         <Route path='/category/:categoryId' element={<ItemListContainer greeting={'Producto de la categoria: '} />} />
         <Route path='/item/:itemId' element={<ItemDetailContainer />}/>
-        
+        {/* <Route path='/cart' element={<Cart/>}/> */}
       </Routes>
       </CartProvider>
       
