@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const CartView =() => {
 
-    const { cart } = useContext(CartContext)
+    const { cart, removeItem } = useContext(CartContext)
 
     return (
         <div>
@@ -15,8 +15,9 @@ const CartView =() => {
                 {
                     cart.map(prod =>{
                         return (
-                            <article key={prod.id}>
+                            <article key={prod.id} style={{display: 'flex'}}>
                                 <h2>{prod.name}</h2>
+                                <button onClick={()=> removeItem(prod.id)}>Eliminar</button>
 
                             </article>
 
